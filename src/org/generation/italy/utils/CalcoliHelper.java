@@ -80,10 +80,15 @@ public class CalcoliHelper {
 	
 	public static double potenza (int a, int b) {
 		int result = 0;
-		if(b == 0) {
+		if(a == 0) {
+			result = 0;
+		}
+		else if(b == 0) {
 			result = 1;
 		}else if(b == 1) {
 			result = a;
+		}else if(b == -1) {
+			result = 1 / a;
 		}
 		else if(b < 0) {
 			a = 1 / a;

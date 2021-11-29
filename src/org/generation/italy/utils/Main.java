@@ -15,7 +15,8 @@ public class Main {
 //		System.out.println(CalcoliHelper.minimo(1.5, 1.6));
 //		System.out.println(CalcoliHelper.massimo(10, 100));
 //		System.out.println(CalcoliHelper.massimo(1.5, 1.6));
-		System.out.println(CalcoliHelper.potenza(5, -2));
+		System.out.println(CalcoliHelper.potenza(10, -1));
+		System.out.println(1 / 10);
 		
 
 	}
